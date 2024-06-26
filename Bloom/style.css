@@ -1,0 +1,6 @@
+.topBar {display: flex; padding-top: 20px; padding-bottom: 20px; background-color: #26292e;}
+.title {flex: 7; padding-left: 25px;color: #949598;}
+.picture {flex: 1; align-content: center;}
+
+.containerLvl2 {padding-top: 1px; background-color: #e7718b ; color: #ffffff;}
+.text {display: inline-block ;}

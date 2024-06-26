@@ -1,0 +1,9 @@
+body {background-color: maroon; color:white;}
+/*ul {list-style: none;}
+li {display: inline;}
+h2 {display: inline;}*/
+
+.navButton ul {list-style: none;}
+.navButton li {display: inline;}
+.logo{display:inline-block;}
+.navButton{display:inline-block}

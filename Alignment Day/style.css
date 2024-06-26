@@ -1,0 +1,20 @@
+.centerText p {text-align: center;}
+.flexItem1{background-color: lightseagreen;
+    flex: 1;
+}
+.flexItem2 {background-color: peru;
+    flex: 1;
+}
+.flexContainer h1 {text-align: center;}
+.flexContainer {display: flex;}
+.blockOne {
+    height: 100px;
+    width: 100px;
+    background-color: palevioletred;
+    display: inline-block;
+}
+.blockTwo {
+    background-color :darkgreen;
+    padding: 50px;
+    display: inline-block;
+}
