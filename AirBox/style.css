@@ -33,7 +33,7 @@
 .midContainer
 {
     background-color: #262336;
-    text-align: center;
+    text-align: -webkit-center;
     place-content: space-between;
     padding-bottom: 80px;
 }
@@ -47,7 +47,7 @@
     -webkit-text-fill-color: transparent;
 }
 .midContainer h1 {color: #ffffff; margin-block-start: -25px; margin-block-end: -20px;}
-.pGrph {color: #68647d; margin-left: 530px; margin-right: 530px; margin-bottom: -10px;}
+.pGrph {color: #68647d; width: 50%; margin-bottom: -10px;}
 .midContainer input
 {
     border-style: hidden;
@@ -87,12 +87,14 @@
 .direct p{color: #000000; margin-block-start: 0px; margin-block-end: 0px;}
 
 .largeContainer {background-color: #e8e8ea; display:flex;}
-.tag1 {flex: 1; text-align: center; padding-bottom: 50px; padding-left: 50px; padding-right: 50px;}
-.tag2 {flex: 1; text-align: center; padding-left: 50px; padding-right: 50px;} 
-.tag3 {flex: 1; text-align: center; padding-left: 50px; padding-right: 50px;}
-.tag4 {flex: 1; text-align: center; padding-left: 50px; padding-right: 50px;}
+.largeContainer p {font-size: x-small;}
+.tag1 {flex: 1; text-align: center; padding-bottom: 50px; padding-left: 50px;}
+.tag2 {flex: 1; text-align: center; padding-left: 50px;} 
+.tag3 {flex: 1; text-align: center; padding-left: 50px;}
+.tag4 {flex: 1; text-align: center; padding-left: 50px;}
 .topBar
 {
+    /*width: 160px;*/
     background-color: #6f6c89; color: #c6c3c3;
     border: ridge; border-top-left-radius: 5px; border-top-right-radius:5px;
     height: 60px;
