@@ -36,3 +36,25 @@ div .buttons {margin-top: 10px; padding-bottom: 10px; padding-right: calc(var(--
 .strong {border-top: 1px solid rgb(105, 103, 103); border-left: 1px solid rgb(105, 103, 103);}
 .stable {border-top: 1px solid rgb(105, 103, 103); border-left: 1px solid rgb(105, 103, 103);}
 .more {background-color: rgb(25, 41, 58); color: aliceblue;}
+input {border-radius: 3px;}
+
+.ctFive img {height: 20%; width: 100%;}
+.ctFive p {font-size: small;}
+
+.ctSix {margin-top: 40px; background-color: rgb(25, 41, 58); color: gray; font-size: x-small;}
+.ctSix h2 {font-size: calc(1.325rem + -1.1vw); color: aliceblue;}
+.rowSix {padding-top: 10px; padding-bottom: 15px;}
+.opportunities {margin-left: -5px;}
+.opportunities li {color:aliceblue}
+span {color: aliceblue;}
+.img1 {width: 64%; height: 70%;}
+.img2 {width: 64px; height: 72px;}
+.img3 {width: 62px; height: 75px;}
+
+.bottomBar
+{
+    padding-left: 20px;
+    padding-bottom: 1px;
+    background-color: rgb(14, 30, 49);
+    color: aliceblue
+}
