@@ -1,0 +1,38 @@
+body {background-color: rgb(242, 243, 245);}
+div.row.topBar {margin-top: 5px; height: 20px;}
+div.rightLinks ul{margin-top: 2%; padding-left: 1.9rem;}
+.topBar p {margin-top: 2%;}
+.topBar {background-color: rgb(25, 41, 58); color: aliceblue; font-size: xx-small;}
+li {display: inline;}
+
+.Detroix img {width: 100%;}
+div .Detroix {margin-top: 10px; padding-bottom: 10px;}
+div .buttons {margin-top: 10px; padding-bottom: 10px; padding-right: calc(var(--bs-gutter-x)* 0);}
+.home {width: 15%; font-size: xx-small; background-color: rgb(25, 41, 58); color: aliceblue; border-radius: 3px;}
+.about {width: 15%; font-size: xx-small; background-color: rgb(25, 41, 58); color: aliceblue; border-radius: 3px;}
+.faqs {width: 15%; font-size: xx-small; background-color: rgb(25, 41, 58); color: aliceblue; border-radius: 3px;}
+.serviceB {width: 21%; font-size: xx-small; background-color: rgb(25, 41, 58); color: aliceblue; border-radius: 3px;}
+.contacts {width: 21%; font-size: xx-small; background-color: rgb(25, 41, 58); color: aliceblue; border-radius: 3px;}
+
+.img
+{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+.carouselButtons div
+{
+    display: inline-block;
+    background-color: gray;
+    color: gray;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+.carouselButtons {text-align: center; padding-bottom: 5px;}
+.smart {border-top: 1px solid rgb(105, 103, 103);}
+.strong {border-top: 1px solid rgb(105, 103, 103); border-left: 1px solid rgb(105, 103, 103);}
+.stable {border-top: 1px solid rgb(105, 103, 103); border-left: 1px solid rgb(105, 103, 103);}
+.more {background-color: rgb(25, 41, 58); color: aliceblue;}
