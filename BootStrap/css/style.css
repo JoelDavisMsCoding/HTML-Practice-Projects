@@ -1,5 +1,12 @@
 .itemOne {background-color: red;}
 .itemTwo {background-color: blue;}
+/* This is using the CSS condition code. */
+/* Min-width <= UNIT measurement (ex. 768 px) */
+/* Max-width >= UNIT measurement (ex. 600px) */
+@media (min-width: 600px)
+{
+    .itemOne {background-color: green;}
+}
 .boxOne {background-color: tomato;}
 .boxTwo {background-color: burlywood;}
 .boxThree {background-color: aqua;}
