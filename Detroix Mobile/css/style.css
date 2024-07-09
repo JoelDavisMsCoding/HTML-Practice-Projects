@@ -1,18 +1,19 @@
-body {background-color: rgb(242, 243, 245);}
+#bcolor {background-color: rgb(242, 243, 245);}
 div.row.topBar {margin-top: 5px; height: 20px;}
 div.rightLinks ul{margin-top: 2%; padding-left: 1.9rem; text-align: right;}
 .topBar p {margin-top: 2%;}
-.topBar {background-color: rgb(25, 41, 58); color: aliceblue; font-size: xx-small;}
-li {display: inline;}
+.topBar {background-color: rgb(25, 41, 58); color: aliceblue; font-size: x-small;}
+.topBar li {display: inline;}
 
 .Detroix img {width: 100%;}
 div .Detroix {margin-top: 10px; padding-bottom: 10px;}
-div .buttons {margin-top: 10px; padding-bottom: 10px; padding-right: calc(var(--bs-gutter-x)* 0);}
-.home {width: 15%; font-size: xx-small; background-color: rgb(25, 41, 58); color: aliceblue; border-radius: 3px;}
-.about {width: 15%; font-size: xx-small; background-color: rgb(25, 41, 58); color: aliceblue; border-radius: 3px;}
-.faqs {width: 15%; font-size: xx-small; background-color: rgb(25, 41, 58); color: aliceblue; border-radius: 3px;}
-.serviceB {width: 21%; font-size: xx-small; background-color: rgb(25, 41, 58); color: aliceblue; border-radius: 3px;}
 .contacts {width: 21%; font-size: xx-small; background-color: rgb(25, 41, 58); color: aliceblue; border-radius: 3px;}
+div .buttons {margin-top: 10px; padding-left: 33px; padding-bottom: 10px; align-content: center; padding-right: calc(var(--bs-gutter-x)* 0);}
+.home {width: 40px; font-size: xx-small; background-color: rgb(25, 41, 58); color: aliceblue; border-radius: 3px;}
+.about {width: 43px; font-size: xx-small; background-color: rgb(25, 41, 58); color: aliceblue; border-radius: 3px;}
+.faqs {width: 35px; font-size: xx-small; background-color: rgb(25, 41, 58); color: aliceblue; border-radius: 3px;}
+.serviceB {width: 52px; font-size: xx-small; background-color: rgb(25, 41, 58); color: aliceblue; border-radius: 3px;}
+.contacts {width: 60px; font-size: xx-small; background-color: rgb(25, 41, 58); color: aliceblue; border-radius: 3px;}
 
 .img
 {
@@ -39,41 +40,27 @@ div .buttons {margin-top: 10px; padding-bottom: 10px; padding-right: calc(var(--
 input {border-radius: 3px;}
 
 .ctFive img {height: 20%; width: 100%;}
-.ctFive p {font-size: x-small; margin-block-end: -0.5em;}
+.ctFive p {font-size: x-small; margin-block-end: -0.5em; color: rgb(105, 103, 103);}
 
 .ctSix {margin-top: 5px; background-color: rgb(25, 41, 58); color: gray; font-size: x-small;}
-.ctSix h2 {font-size: calc(1.325rem + -1.1vw); color: aliceblue;}
+.ctSix h2 {font-size: medium; color: aliceblue;}
 .ctSix ul {padding-left: 1rem;}
-
+.services ul {list-style-image:url("C:\\Users\\jbree\\OneDrive\\Desktop\\gear.jpg");}
 .rowSix {padding-top: 10px; padding-bottom: 15px;}
-.rowSix li {list-style-image: url(../../../../../Desktop/gear.png)}
 .opportunities {margin-left: -5px;}
-.opportunities ul {margin-bottom: 0.1rem;}
+.opportunities ul {margin-bottom: 0.1rem; list-style-image:url("C:\\Users\\jbree\\OneDrive\\Desktop\\thinkBubble.png");}
 .opportunities li {color:aliceblue}
+.opportunities p {margin-top: 10px;}
 span {color: aliceblue;}
-.img1 {width: 64%; height: 70%;}
-.img2 {width: 64px; height: 72px;}
-.img3 {width: 62px; height: 75px;}
+.news p {margin-top: -3px;}
+.img1 img {width: 30px; border-radius: 5px;}
+.img2 img {width: 30px; border-radius: 5px;}
+.img3 img {width: 30px; border-radius: 5px;}
 
-.bottomBar
-{
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 1px;
-    background-color: rgb(14, 30, 49);
-    color: aliceblue
-}
+.bottomBar p {font-size: x-small; margin-top: revert;}
+.bottomBar {padding-left: 20px; background-color: rgb(14, 30, 49); color: aliceblue;}
 
-@media (min-width: 547px)
-{
-    div.rightLinks ul{margin-top: 1.5%;}
-    .topBar p {margin-top: 1.5%;}
-}
-@media (min-width: 991px) {
-    div.rightLinks ul{margin-top: 1%;}
-    .topBar p {margin-top: 1%;}
-}
-@media (min-width: 1200px) {
-    div.rightLinks ul{margin-top: 0.5%;}
-    .topBar p {margin-top: 0.5%;}
-}
+@media (min-width: 547px) {div.rightLinks ul{margin-top: 1.5%;} .topBar p {margin-top: 1.5%;}}
+@media (min-width: 991px) {div.rightLinks ul{margin-top: 1%;} .topBar p {margin-top: 1%;}}
+@media (min-width: 1200px) {div.rightLinks ul{margin-top: 0.5%;} .topBar p {margin-top: 0.5%;}}
+@media (min-width: 391px) {div .buttons {text-align: right; padding-right: 12px;}}
