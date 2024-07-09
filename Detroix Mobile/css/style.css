@@ -7,7 +7,6 @@ div.rightLinks ul{margin-top: 2%; padding-left: 1.9rem; text-align: right;}
 
 .Detroix img {width: 100%;}
 div .Detroix {margin-top: 10px; padding-bottom: 10px;}
-.contacts {width: 21%; font-size: xx-small; background-color: rgb(25, 41, 58); color: aliceblue; border-radius: 3px;}
 div .buttons {margin-top: 10px; padding-left: 33px; padding-bottom: 10px; align-content: center; padding-right: calc(var(--bs-gutter-x)* 0);}
 .home {width: 40px; font-size: xx-small; background-color: rgb(25, 41, 58); color: aliceblue; border-radius: 3px;}
 .about {width: 43px; font-size: xx-small; background-color: rgb(25, 41, 58); color: aliceblue; border-radius: 3px;}
