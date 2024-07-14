@@ -64,7 +64,6 @@ div.airBox {margin-top: 8px;}
     text-align: center;
     padding-bottom: 20px;
 }
-
 .pic1 {margin-left: -15px;}
 .control h2{color: #fcfdfa; margin-block-start: 0px; margin-block-end: 0px;}
 .control h3{color: #dcdbe0; margin-block-start: 0px; margin-block-end: 0px;}
@@ -82,3 +81,81 @@ div.airBox {margin-top: 8px;}
 .direct h3{color: #dcdbe0; margin-block-start: 0px; margin-block-end: 0px;}
 .direct p{color: #000000; margin-block-start: 0px; margin-block-end: 0px;}
 
+.container4 {background-color: #e8e8ea;}
+.container4 p {font-size: x-small;}
+.tag1 {text-align: center; padding-left: 50px;}
+.tag2 {text-align: center; padding-left: 50px;} 
+.tag3 {text-align: center; padding-left: 50px; padding-bottom: 20px;}
+.tag4 {text-align: center; padding-left: 50px; padding-bottom: 20px;}
+.topBar
+{
+    /*width: 160px;*/
+    padding-top: 12px;
+    background-color: #6f6c89; color: #c6c3c3;
+    border: ridge; border-top-left-radius: 5px; border-top-right-radius:5px;
+    height: 60px;
+    margin-top: 20px;
+}
+span {color: #d85b12;}
+.topBar h3 
+{
+    margin-block-end: -1em;
+    background:linear-gradient(to bottom, #D1D0D6 0%, #817D92 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.priceBar {padding-top: 11px; background-color: #6f6c89; color: #dedbdb; border: ridge; height: 60px; margin-top: -2px;}
+.priceBar h3 {margin-block-end: -1em;}
+.diskSpace {background-color: #ffffff; color: #b3afaf; border: ridge; padding-top: 12px; margin-top: -3px; height: 45px;}
+.diskSpace p {margin-block-end: -1em;}
+.bandWidth {background-color: #f5f0f0; color: #b3afaf; border: ridge; padding-top: 6px; height: 30px;}
+.bandWidth p {margin-block-end: -1em;}
+.emailAcct {background-color: #ffffff ; color: #b3afaf; border: ridge; padding-top: 6px; height: 30px;}
+.emailAcct p {margin-bottom: 0px;}
+.data {background-color: #f5f0f0; color: #b3afaf; border: ridge; padding-top: 6px; height: 30px;}
+.data p {margin-block-end: 0em;}
+.button {background-color: #ffffff; border: ridge; padding-top: 3px; height: 35px;}
+input {border-style: none; height: 25px; width: 100px; margin-top: 5px; background-color: #ed7b48; color: #ffffff; border-radius: 5px;}
+
+div.container5 {padding-left: 25px; }
+.container5 {padding-top: 10px; background-color: #262336;}
+.container5 h3
+{
+    font-size: larger;
+    background:linear-gradient(to bottom, #D1D0D6 0%, #817D92 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container5 p
+{
+    background:linear-gradient(to bottom, #D1D0D6 0%, #817D92 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container5 li { color: aliceblue; }
+.container5 li::marker {
+    color: #f88928;
+  }
+.column1 {text-align: left;}
+.column2 {text-align: left;} 
+.column3 {text-align: left;}
+.column4 {text-align: left;}
+.bottomButton {padding-bottom: 30px;}
+
+div .picture {padding-right: 0px; padding-left: 0px;}
+.picture img {width: 100%}
+
+.container7 {background-color: #1a1921;}
+.container7 > div .box {border-radius: 5px;}
+.container7 > div .airBox {color: #444153; margin-top: 17px; margin-left: -11px;}
+.container7 > div .airBox h3 {font-size: xx-small;}
+.container7 > div .airBox p {font-size: 8px;}
+.text p {color: #444153; font-size: xx-small; margin-top: 27px; padding-left: 20px;}
+.container7 > div .boxBorder {align-content: center;}
+.container7 > div .box {width: 30px; height: 30px; padding-top: 5px;}
+.container7 > div .o {margin-left: -4px;}
+.container7 > div .o h1 {font-size: x-large;}
+.container7 > div .two h4 {font-size: x-small;}
+.container7 > div .two {margin-left: -2px; margin-top: -10px;}
+div .mediaSymbols {margin-top: 17px; text-align-last: right;}
+.container7 span {color: #676889;}
