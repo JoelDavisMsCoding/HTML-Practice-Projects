@@ -147,19 +147,19 @@ div.container5 {padding-left: 25px; }
 div .picture {padding-right: 0px; padding-left: 0px;}
 .picture img {width: 100%}
 
-.container7 {background-color: #1a1921;}
+.container7 {height: 50px; background-color: #1a1921;}
 .container7 > div .box {border-radius: 5px;}
-.container7 > div .airBox {color: #444153; margin-top: 8px; margin-left: -11px;}
+.container7 > div .airBox {color: #444153; margin-top: 8px; margin-left: -11px;margin-bottom: -10px;}
 .container7 > div .airBox h3 {font-size: xx-small;}
 .container7 > div .airBox p {font-size: 8px;}
-.text p {color: #444153; font-size: xx-small; margin-bottom: 0px; margin-top: 15px; padding-left: 20px;}
+.text p {color: #444153; font-size: xx-small; margin-bottom: 0px; margin-top: 17px; padding-left: 0px;}
 .container7 > div .boxBorder {align-content: center;}
 .container7 > div .box {width: 30px; height: 30px; padding-top: 5px;}
 .container7 > div .o {margin-left: -4px;}
 .container7 > div .o h1 {font-size: x-large;}
 .container7 > div .two h4 {font-size: x-small;}
 .container7 > div .two {margin-left: -2px; margin-top: -10px;}
-div .mediaSymbols {margin-top: 17px; text-align-last: right;}
+div .mediaSymbols {margin-top: 7px; text-align-last: right;}
 .container7 span {color: #676889;}
 
 @media (min-width: 576px) {div.boxBorder {text-align: left;}}
